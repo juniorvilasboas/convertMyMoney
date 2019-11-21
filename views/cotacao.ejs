@@ -1,0 +1,13 @@
+<%- include('header') %>
+    <div class="result">
+        <% if(error) { %>
+            <%= error %>
+        <% } else { %>
+            <% if(parseFloat(quantidade) > 1)  { %>
+                <%= quantidade %> dolares na cotação: <%= cotacao %> é igual a: <%= conversao %> Reais!
+            <% } else { %>
+                <%= quantidade %> dolar na cotação: <%= cotacao %> é igual a: <%= conversao %> Reais!
+            <% } %>
+        <% } %>
+    </div>
+<%- include('footer') %>

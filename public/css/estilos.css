@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+h1 img {
+    margin: 20px 0 40px 0;
+    width: 489px;
+}
+
+.form-group {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group input {
+    width: 250px;
+}
+
+.result {
+    background: #fdfdfd;
+    border: 1px solid #d8d8d8;
+    padding: 10px;
+}
