@@ -37,7 +37,7 @@ node_modules/
 jspm_packages/
 
 # Test files
-convert.test.js
+# convert.test.js
 
 # TypeScript v1 declaration files
 typings/
