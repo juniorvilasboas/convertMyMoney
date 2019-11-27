@@ -24,10 +24,14 @@
   },
   "homepage": "https://github.com/juniorvilasboas/convertMyMoney#readme",
   "dependencies": {
+    "axios": "^0.19.0",
     "ejs": "^2.7.4",
     "express": "^4.17.1"
   },
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "jest": {
+    "collectCoverage": true
   }
 }
