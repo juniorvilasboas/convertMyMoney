@@ -1,5 +1,6 @@
 <%- include('header') %>
         <form method="get" action="/cotacao">
+            <label>Data da cotação: <%- data %></label><br />
             <div class="form-group">
                 <input pattern="[+-]?([0-9]*[.])?[0-9]+" name="cotacao" class="form-control" value="<%= cotacao %>" placeholder="Cotação dolar (0.00)" title="Somente valores numericos 0.00" required>
             </div>

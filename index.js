@@ -14,9 +14,11 @@ const port = process.env.PORT || 3000
 
 app.get('/', async(req,res) => {
     const cotacao = await apiBCB.getCotacao()
-    
+    const data = await apiBCB.getTodayFormater()
+
     res.render('home', {
-        cotacao
+        cotacao,
+        data
     })
 })
 
