@@ -1,8 +1,8 @@
 # convertMyMoney
 Sistema de conversão de valores
 
-Sistema desenvolvido em parceria com a <a href="http://www.devpleno.com">DevPleno</a>, no curso Fullstack Master
+Sistema desenvolvido como processo de aprendizado do curso Fullstack Master da [DevPleno](http://www.devpleno.com)
 
 <br>
 
-Acesse o sistema publicado no <a href="https://zeit.co/">https://zeit.co/</a> clicando <a href="https://convertmymoney-psi-nine.now.sh/">Aqui</a>
+Acesse o sistema publicado no [https://zeit.co/](https://zeit.co/) clicando [Aqui](https://convertmymoney-psi-nine.now.sh/)
